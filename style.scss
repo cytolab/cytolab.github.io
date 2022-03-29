@@ -1,0 +1,15 @@
+/* -- Global Variables -- */ 
+$font_stack: Arial, sans-serif;
+$irish_blue: #1F1D5A;
+
+body {
+	background-color: $irish_blue;
+	color: white;
+	margin: 0px;
+	font-family: $font_stack;	
+}
+
+/* -- Intro Banner -- */ 
+#intro_banner {
+	text-align: center;
+}

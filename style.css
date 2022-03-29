@@ -1,0 +1,14 @@
+/* -- Global Variables -- */
+body {
+  background-color: #1F1D5A;
+  color: white;
+  margin: 0px;
+  font-family: Arial, sans-serif;
+}
+
+/* -- Intro Banner -- */
+#intro_banner {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
