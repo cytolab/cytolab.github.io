@@ -11,5 +11,24 @@ body {
 
 /* -- Intro Banner -- */ 
 #intro_banner {
-	text-align: center;
+	height: 75vh;
+	background-image: url("tSNE_anim_01.gif");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+#intro h2 {
+	margin-bottom: 30px;
+	font-style: italic;
+	font-size: 24px;
+}
+.section_title {
+	text-decoration: underline;
+}
+
+
+// INTRO CYTO APPS 
+#intro_cyto {
+	
 }
