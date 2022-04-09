@@ -1,19 +1,42 @@
 /* -- GLOBAL -- */ 
-$font_stack: Arial, sans-serif;
-$irish_blue: #100F31;
-$yellow: #FCEE86;
-$teal: #35B779;
-$cornflower-blue: #4291BC;
+$header_stack: Urbanist, Arial, sans-serif;
+$body_stack: Cormorant-Garamond, serif;
+$cornsilk: #fffae2;
+$text_gray: #4c4c4c;
+$dark_blue: #121037;
+$cyber_yellow: #ffd400;
+$teal: #5cad7d;
+$royal_blue: #0246ec;
+$rust: #a63c06;
+$fuchsia: #fd3e81;
 
 body {
-	background-color: $irish_blue;
-	color: white;
+	background-color: $dark_blue;
+	color: $cornsilk;
 	margin: 0px;
-	font-family: $font_stack;	
+	font-family: $header_stack;	
+}
+.section_subtitle {
+	margin-top: 65px;
+	margin-bottom: -5px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 200;
+	font-size: 14px;
+	letter-spacing: 1.5px;
 }
 .section_title {
-	margin-top: 30px;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 35px;
+}
+p {
+	font-size: 14px;
+	font-family: $body-stack;
+	letter-spacing: 1px;
+	color: $cornsilk; /* Fallback for older browsers */
+    color: rgba(255, 255, 255, 0.60);
 }
 
 /* -- INTRO BANNER -- */ 
@@ -23,42 +46,79 @@ body {
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: contain;
-	// box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
 }
 #intro_banner h1 {
-	margin-top: 50vh;
-	font-size: 3rem;
+	margin-top: 45vh;
+	font-size: 4rem;
 }
-#intro_banner p {
-	font-size: 14px;
-	color: white; /* Fallback for older browsers */
-    color: rgba(255, 255, 255, 0.60);
+
+/* -- NAVBAR -- */
+#navbar {
+	margin-left: 40px;
+	margin-right: 40px;
+	border-top: 1px solid $cornsilk;
+	border-bottom: 1px solid $cornsilk;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;	
+}
+#navbar a {
+	padding-right: 30px;
+	padding-left: 30px;
+	font-family: $header-stack;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 1.5px;
+	color: $cornsilk;
+}
+#navbar a:hover {
+	font-weight: 600;
 }
 
 /* -- INTRO CYTO -- */ 
-#intro_cyto h2 {
-	color: $yellow;
+.number_card {
+	margin-bottom: 15px;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: white;
 }
 #intro_cyto a {
-	font-size: 20px;
+	font-family: $body_stack;
+	font-size: 28px;
 	text-decoration: none;
-	color: white;
+	font-weight: bold;
+	letter-spacing: 1px;
 }
-#intro_cyto a:hover {
-	color: $yellow;
-	text-decoration: underline;
-}
-#intro_cyto p {
-	font-size: 14px;
+#intro_cyto .number_card p {
 	font-style: italic;
-    color: white; /* Fallback for older browsers */
-    color: rgba(255, 255, 255, 0.60);
+	margin-bottom: 0px;
+	color: $text_gray;
+}
+#intro_cyto h1 {
+	margin-bottom: 0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-size: 4rem;
+}
+#cyto_01 a, #cyto_01 h1 {
+	color: $royal_blue;
+}
+#cyto_01 {
+	background-image: url("pics/westblot_bkground_bw.svg");
+	background-size: 75%;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+#cyto_02 a, #cyto_02 h1 {
+	color: $fuchsia;
+}
+#cyto_03 a, #cyto_03 h1 {
+	color: $cyber_yellow;
 }
 
+
 /* -- WORKFLOWS -- */ 
-#wkflow_title {
-	color: $cornflower-blue;
-}
 .wkflow_apps {
 	margin-bottom: 30px;
 }
@@ -68,10 +128,10 @@ body {
 }
 .wkflow_apps a {
 	text-decoration: none;
-	color: white;
+	color: $cornsilk;
 }
 .thumbnail {
-	border: 1px solid white;
+	border: 1px solid $cornsilk;
 	border-radius: 5px;
 	padding-right: 10px;
 	padding-top: 10px;
@@ -98,6 +158,8 @@ body {
 	margin-left: 5px;
 }
 .thumbnail:hover {
-	color: rgba(255, 255, 255, 0.60);;
-	border-color: rgba(255, 255, 255, 0.60);;
+	// color: rgba(255, 255, 255, 0.60);
+	// border-color: rgba(255, 255, 255, 0.60);
+	color: $rust;
+	border-color: $rust;
 }
