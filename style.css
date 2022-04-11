@@ -7,7 +7,7 @@ body {
 }
 
 .section_subtitle {
-  margin-top: 65px;
+  margin-top: 55px;
   margin-bottom: -5px;
   text-align: center;
   text-transform: uppercase;
@@ -73,19 +73,75 @@ p {
   font-weight: 600;
 }
 
-/* -- INTRO CYTO -- */
-#intro_cyto {
-  margin-top: 30px;
-  margin-right: 30px;
-  margin-left: 30px;
-  padding-top: 40px;
-  padding-bottom: 40px;
+/* -- WORKFLOWS -- */
+#wkflow_intro h2.section_title {
+  margin-bottom: 20px;
+}
+
+.thumbnail {
+  text-align: center;
+  margin-top: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  background-color: #1e1c49;
+}
+
+.thumbnail img {
+  width: 60%;
+  margin-top: -60px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px #302f2f;
   background-color: #fffcf2;
 }
 
+.thumbnail a {
+  display: inline-block;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background-color: #0246ec;
+  color: #fffcf2;
+}
+
+.thumbnail a:hover {
+  text-decoration: none;
+  background-color: #376ce8;
+}
+
+/* -- INTRO CYTO -- */
 #intro_cyto {
+  margin-top: 55px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  background-color: #fffcf2;
   text-align: center;
   align-content: center;
+}
+
+#intro_cyto h4.section_subtitle {
+  margin-top: 0px;
+  color: #4c4c4c;
+}
+
+#intro_cyto h2.section_title {
+  margin-bottom: 20px;
+  color: #a63c06;
+}
+
+#intro_cyto p {
+  margin-bottom: 20px;
+  color: #4c4c4c;
 }
 
 #intro_cyto img {
@@ -115,6 +171,7 @@ p {
   padding-left: 40px;
   border-radius: 5px;
   text-transform: uppercase;
+  letter-spacing: 1.5px;
   background-color: #a63c06;
   color: #fffcf2;
 }
@@ -124,57 +181,23 @@ p {
   background-color: #b56546;
 }
 
-/* -- WORKFLOWS -- */
-.wkflow_apps {
-  margin-bottom: 30px;
+/* -- FUNDING -- */
+#funding {
+  margin-top: 65px;
+  margin-bottom: 65px;
+  text-align: center;
 }
 
-.wkflow_apps .col-10 {
-  padding-right: 0px;
-  padding-left: 0px;
+#funding img {
+  width: 50%;
 }
 
-.wkflow_apps a {
-  text-decoration: none;
-  color: #fffcf2;
-}
-
-.thumbnail {
-  border: 1px solid #fffcf2;
-  border-radius: 5px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-}
-
-.thumbnail .row {
-  width: 100%;
-  margin-right: 0px;
-  margin-left: 0px;
-}
-
-.thumbnail img {
-  width: 100%;
-}
-
-.thumbnail .col-6 {
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
-.thumbnail .col-6 h4 {
-  margin-left: 5px;
-}
-
-.thumbnail .col-6 p {
-  margin-bottom: 0px;
-  margin-left: 5px;
-}
-
-.thumbnail:hover {
-  color: #a63c06;
-  border-color: #a63c06;
+/* -- FOOTER -- */
+#footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #302f2f;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

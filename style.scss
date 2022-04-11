@@ -1,23 +1,27 @@
 /* -- GLOBAL -- */ 
 $header_stack: Urbanist, Arial, sans-serif;
 $body_stack: Cormorant-Garamond, serif;
-$cornsilk: #fffae2;
+$cornsilk: #fffcf2;
 $text_gray: #4c4c4c;
-$dark_blue: #121037;
+$darkest_gray: #302f2f;
+$irish_blue: #121037;
+$irish_blue_light: #1e1c49;
 $cyber_yellow: #ffd400;
 $teal: #5cad7d;
 $royal_blue: #0246ec;
+$royal_blue_light: #376ce8;
 $rust: #a63c06;
+$rust_light: #b56546;
 $fuchsia: #fd3e81;
 
 body {
-	background-color: $dark_blue;
+	background-color: $irish_blue;
 	color: $cornsilk;
 	margin: 0px;
 	font-family: $header_stack;	
 }
 .section_subtitle {
-	margin-top: 65px;
+	margin-top: 55px;
 	margin-bottom: -5px;
 	text-align: center;
 	text-transform: uppercase;
@@ -32,6 +36,7 @@ body {
 	font-size: 35px;
 }
 p {
+	margin-bottom: 0px;
 	font-size: 14px;
 	font-family: $body-stack;
 	letter-spacing: 1px;
@@ -76,90 +81,116 @@ p {
 	font-weight: 600;
 }
 
-/* -- INTRO CYTO -- */ 
-.number_card {
-	margin-bottom: 15px;
-	padding: 20px;
-	border-radius: 5px;
-	background-color: white;
+/* -- WORKFLOWS -- */ 
+#wkflow_intro h2.section_title  {
+	margin-bottom: 20px;
 }
-#intro_cyto a {
-	font-family: $body_stack;
-	font-size: 28px;
+.thumbnail {
+	text-align: center;
+	margin-top: 80px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+	border-radius: 5px;
+	background-color: $irish_blue_light;
+}
+.thumbnail img {
+	width: 60%;
+	margin-top: -60px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 15px $darkest_gray;
+	background-color: $cornsilk;
+}
+.thumbnail a {
+	display: inline-block;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	background-color: $royal_blue;
+	color: $cornsilk;
+}
+.thumbnail a:hover {
 	text-decoration: none;
-	font-weight: bold;
+	background-color: $royal_blue_light;
+}
+
+/* -- INTRO CYTO -- */
+#intro_cyto {
+	margin-top: 55px;
+	margin-right: 30px;
+	margin-left: 30px;
+	padding-top: 55px;
+	padding-bottom: 55px;
+	background-color: $cornsilk;
+	text-align: center;	
+	align-content: center;
+}  
+#intro_cyto h4.section_subtitle { 
+	margin-top: 0px;
+	color: $text_gray; 
+}
+#intro_cyto h2.section_title { 
+	margin-bottom: 20px;
+	color: $rust; 
+}
+#intro_cyto p {
+	margin-bottom: 20px;
+	color: $text_gray;
+}
+#intro_cyto img {
+	width: 55%;
+	margin-bottom: 30px;
+}
+#intro_cyto h3 {
+	color: $text_gray;
+	font-family: $header_stack;
+	font-size: 24px;
 	letter-spacing: 1px;
 }
 #intro_cyto .number_card p {
+	font-family: $body_stack;
 	font-style: italic;
-	margin-bottom: 0px;
 	color: $text_gray;
 }
-#intro_cyto h1 {
-	margin-bottom: 0px;
-	padding-left: 15px;
-	padding-right: 15px;
-	font-size: 4rem;
-}
-#cyto_01 a, #cyto_01 h1 {
-	color: $royal_blue;
-}
-#cyto_01 {
-	background-image: url("pics/westblot_bkground_bw.svg");
-	background-size: 75%;
-	background-repeat: no-repeat;
-	background-position: right bottom;
-}
-#cyto_02 a, #cyto_02 h1 {
-	color: $fuchsia;
-}
-#cyto_03 a, #cyto_03 h1 {
-	color: $cyber_yellow;
-}
-
-
-/* -- WORKFLOWS -- */ 
-.wkflow_apps {
-	margin-bottom: 30px;
-}
-.wkflow_apps .col-10 {
-	padding-right: 0px;
-	padding-left: 0px;
-}
-.wkflow_apps a {
-	text-decoration: none;
+#intro_cyto a {
+	display: inline-block;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	background-color: $rust;
 	color: $cornsilk;
 }
-.thumbnail {
-	border: 1px solid $cornsilk;
-	border-radius: 5px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-left: 10px;
-	padding-bottom: 10px;
+#intro_cyto a:hover {
+	text-decoration: none;
+	background-color: $rust_light;
 }
-.thumbnail .row {
-	width: 100%;
-	margin-right: 0px;
-	margin-left: 0px;
+
+/* -- FUNDING -- */
+#funding {
+	margin-top: 65px;
+	margin-bottom: 65px;
+	text-align: center;
 }
-.thumbnail img {
-	width:  100%;
+#funding img {
+	width: 50%;
 }
-.thumbnail .col-6 {
-	padding-right: 0px;
-	padding-left: 0px;
-}
-.thumbnail .col-6 h4 {
-	margin-left: 5px;
-}
-.thumbnail .col-6 p {
-	margin-bottom: 0px;
-	margin-left: 5px;
-}
-.thumbnail:hover {
-	// color: rgba(255, 255, 255, 0.60);
-	// border-color: rgba(255, 255, 255, 0.60);
-	color: $rust;
-	border-color: $rust;
+
+/* -- FOOTER -- */
+#footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: $darkest_gray;
+	text-align: center;
 }
