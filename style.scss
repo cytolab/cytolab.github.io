@@ -77,9 +77,7 @@ p {
 	letter-spacing: 1.5px;
 	color: $cornsilk;
 }
-#navbar a:hover {
-	font-weight: 600;
-}
+#navbar a:hover { font-weight: 600; }
 
 /* -- WORKFLOWS -- */ 
 #wkflow_intro h2.section_title  {
@@ -119,6 +117,9 @@ p {
 .thumbnail a:hover {
 	text-decoration: none;
 	background-color: $royal_blue_light;
+}
+#cassatt {
+	background-color: $text_gray;
 }
 
 /* -- INTRO CYTO -- */
