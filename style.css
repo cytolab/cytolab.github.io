@@ -1,29 +1,207 @@
-/* -- Global Variables -- */
+/* -- GLOBAL -- */
 body {
-  background-color: #1F1D5A;
-  color: white;
+  background-color: #121037;
+  color: #fffcf2;
   margin: 0px;
-  font-family: Arial, sans-serif;
+  font-family: Urbanist, Arial, sans-serif;
 }
 
-/* -- Intro Banner -- */
-#intro_banner {
-  height: 75vh;
-  background-image: url("tSNE_anim_01.gif");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
-}
-
-#intro h2 {
-  margin-bottom: 30px;
-  font-style: italic;
-  font-size: 24px;
+.section_subtitle {
+  margin-top: 55px;
+  margin-bottom: -5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 14px;
+  letter-spacing: 1.5px;
 }
 
 .section_title {
-  text-decoration: underline;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+p {
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-family: Cormorant-Garamond, serif;
+  letter-spacing: 1px;
+  color: #fffcf2;
+  /* Fallback for older browsers */
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* -- INTRO BANNER -- */
+#intro_banner {
+  height: 75vh;
+  background-image: url("tSNE_anim_02.gif");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#intro_banner h1 {
+  margin-top: 45vh;
+  font-size: 4rem;
+}
+
+/* -- NAVBAR -- */
+#navbar {
+  margin-left: 40px;
+  margin-right: 40px;
+  border-top: 1px solid #fffcf2;
+  border-bottom: 1px solid #fffcf2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#navbar a {
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: Urbanist, Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  color: #fffcf2;
+}
+
+#navbar a:hover {
+  font-weight: 600;
+}
+
+/* -- WORKFLOWS -- */
+#wkflow_intro h2.section_title {
+  margin-bottom: 20px;
+}
+
+.thumbnail {
+  text-align: center;
+  margin-top: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  background-color: #1e1c49;
+}
+
+.thumbnail img {
+  width: 60%;
+  margin-top: -60px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px #302f2f;
+  background-color: #fffcf2;
+}
+
+.thumbnail a {
+  display: inline-block;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background-color: #0246ec;
+  color: #fffcf2;
+}
+
+.thumbnail a:hover {
+  text-decoration: none;
+  background-color: #376ce8;
+}
+
+#cassatt {
+  background-color: #4c4c4c;
+}
+
+/* -- INTRO CYTO -- */
+#intro_cyto {
+  margin-top: 55px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  background-color: #fffcf2;
+  text-align: center;
+  align-content: center;
+}
+
+#intro_cyto h4.section_subtitle {
+  margin-top: 0px;
+  color: #4c4c4c;
+}
+
+#intro_cyto h2.section_title {
+  margin-bottom: 20px;
+  color: #a63c06;
+}
+
+#intro_cyto p {
+  margin-bottom: 20px;
+  color: #4c4c4c;
+}
+
+#intro_cyto img {
+  width: 55%;
+  margin-bottom: 30px;
+}
+
+#intro_cyto h3 {
+  color: #4c4c4c;
+  font-family: Urbanist, Arial, sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+#intro_cyto .number_card p {
+  font-family: Cormorant-Garamond, serif;
+  font-style: italic;
+  color: #4c4c4c;
+}
+
+#intro_cyto a {
+  display: inline-block;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background-color: #a63c06;
+  color: #fffcf2;
+}
+
+#intro_cyto a:hover {
+  text-decoration: none;
+  background-color: #b56546;
+}
+
+/* -- FUNDING -- */
+#funding {
+  margin-top: 65px;
+  margin-bottom: 65px;
+  text-align: center;
+}
+
+#funding img {
+  width: 50%;
+}
+
+/* -- FOOTER -- */
+#footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #302f2f;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
