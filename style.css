@@ -1,42 +1,41 @@
 /* -- GLOBAL -- */
 body {
   background-color: #121037;
-  color: #fffcf2;
+  color: #f9f9f9;
   margin: 0px;
   font-family: Urbanist, Arial, sans-serif;
 }
 
 .section_subtitle {
   margin-top: 55px;
-  margin-bottom: -5px;
+  margin-bottom: 0px;
   text-align: center;
-  text-transform: uppercase;
   font-weight: 200;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1.5px;
 }
 
 .section_title {
   margin-bottom: 30px;
   text-align: center;
-  text-transform: uppercase;
-  font-size: 35px;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
 }
 
 p {
   margin-bottom: 0px;
-  font-size: 14px;
+  font-size: 16px;
   font-family: Cormorant-Garamond, serif;
   letter-spacing: 1px;
-  color: #fffcf2;
-  /* Fallback for older browsers */
-  color: rgba(255, 255, 255, 0.6);
+  color: #f9f9f9;
+  color: rgba(255, 255, 255, 0.65);
 }
 
 /* -- INTRO BANNER -- */
 #intro_banner {
   height: 75vh;
-  background-image: url("tSNE_anim_02.gif");
+  background-image: url("tSNE_anim_03.gif");
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -44,15 +43,17 @@ p {
 
 #intro_banner h1 {
   margin-top: 45vh;
-  font-size: 4rem;
+  font-size: 5.5rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
 }
 
 /* -- NAVBAR -- */
 #navbar {
   margin-left: 40px;
   margin-right: 40px;
-  border-top: 1px solid #fffcf2;
-  border-bottom: 1px solid #fffcf2;
+  border-top: 1px solid #f9f9f9;
+  border-bottom: 1px solid #f9f9f9;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
@@ -66,7 +67,7 @@ p {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1.5px;
-  color: #fffcf2;
+  color: #f9f9f9;
 }
 
 #navbar a:hover {
@@ -75,7 +76,13 @@ p {
 
 /* -- WORKFLOWS -- */
 #wkflow_intro h2.section_title {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  color: #8ea604;
+}
+
+#wkflow_apps h4 {
+  font-size: 28px;
+  letter-spacing: 1px;
 }
 
 .thumbnail {
@@ -94,8 +101,8 @@ p {
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 5px;
-  box-shadow: 0px 5px 15px #302f2f;
-  background-color: #fffcf2;
+  box-shadow: 0px 5px 15px black;
+  background-color: #f9f9f9;
 }
 
 .thumbnail a {
@@ -108,13 +115,13 @@ p {
   border-radius: 5px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  background-color: #0246ec;
-  color: #fffcf2;
+  background-color: #8ea604;
+  color: #f9f9f9;
 }
 
 .thumbnail a:hover {
   text-decoration: none;
-  background-color: #376ce8;
+  background-color: #bfce32;
 }
 
 #cassatt {
@@ -128,7 +135,7 @@ p {
   margin-left: 30px;
   padding-top: 55px;
   padding-bottom: 55px;
-  background-color: #fffcf2;
+  background-color: #f9f9f9;
   text-align: center;
   align-content: center;
 }
@@ -139,12 +146,12 @@ p {
 }
 
 #intro_cyto h2.section_title {
-  margin-bottom: 20px;
-  color: #a63c06;
+  margin-bottom: 30px;
+  color: #ea660c;
 }
 
 #intro_cyto p {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: #4c4c4c;
 }
 
@@ -156,7 +163,7 @@ p {
 #intro_cyto h3 {
   color: #4c4c4c;
   font-family: Urbanist, Arial, sans-serif;
-  font-size: 24px;
+  font-size: 28px;
   letter-spacing: 1px;
 }
 
@@ -176,13 +183,13 @@ p {
   border-radius: 5px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  background-color: #a63c06;
-  color: #fffcf2;
+  background-color: #ea660c;
+  color: #f9f9f9;
 }
 
 #intro_cyto a:hover {
   text-decoration: none;
-  background-color: #b56546;
+  background-color: #e87f38;
 }
 
 /* -- FUNDING -- */
@@ -193,7 +200,7 @@ p {
 }
 
 #funding img {
-  width: 50%;
+  width: 75%;
 }
 
 /* -- FOOTER -- */
