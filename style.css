@@ -80,6 +80,11 @@ p {
   color: #8ea604;
 }
 
+.wkflow_apps {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 .thumbnail h4 {
   font-size: 24px;
   letter-spacing: 1px;
