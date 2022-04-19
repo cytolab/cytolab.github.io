@@ -22,7 +22,7 @@ body {
 	margin-bottom: 0px;
 	text-align: center;
 	font-weight: 200;
-	font-size: 16px;
+	font-size: 24px;
 	letter-spacing: 1.5px;
 }
 .section_title {
@@ -83,8 +83,8 @@ p {
 	margin-bottom: 30px;
 	color: $citron;
 }
-#wkflow_apps h4 {
-	font-size: 28px;
+.thumbnail h4 {
+	font-size: 24px;
 	letter-spacing: 1px;
 }
 .thumbnail {
@@ -154,7 +154,7 @@ p {
 #intro_cyto h3 {
 	color: $text_gray;
 	font-family: $header_stack;
-	font-size: 28px;
+	font-size: 24px;
 	letter-spacing: 1px;
 }
 #intro_cyto .number_card p {
