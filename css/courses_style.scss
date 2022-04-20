@@ -24,9 +24,12 @@ $magenta_light: #cc5b8a;
 	letter-spacing: 1.5px;
 } 
  
-/* -- COURSES -- */ 
+/* -- COURSE CARDS -- */ 
+#all_course_cards {
+	margin-bottom: 50px;
+}
 .course_card {
-	margin-top: 80px;
+	margin-top: 50px;
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -64,4 +67,9 @@ $magenta_light: #cc5b8a;
 .course_card a:hover {
 	text-decoration: none;
 	background-color: $magenta_light;
+}
+
+/* -- COURSE INTRO [PAGES] -- */ 
+.course_name {
+	text-align: center;
 }

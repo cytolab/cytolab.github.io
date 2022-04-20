@@ -52,8 +52,8 @@ p {
 	text-align: center;	
 }
 #navbar a {
-	padding-right: 30px;
-	padding-left: 30px;
+	display: inline-block;
+	width: 10%;
 	font-family: $header-stack;
 	font-weight: 400;
 	text-transform: uppercase;
