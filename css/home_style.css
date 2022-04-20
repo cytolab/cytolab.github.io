@@ -1,0 +1,151 @@
+/* -- INTRO BANNER -- */
+#intro_banner {
+  height: 75vh;
+  background-image: url("../tSNE_anim_03.gif");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#intro_banner h1 {
+  margin-top: 45vh;
+  font-size: 5.5rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+/* -- WORKFLOWS -- */
+#wkflow_intro h2.section_title {
+  margin-bottom: 30px;
+  color: #8ea604;
+}
+
+.wkflow_apps {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.thumbnail h4 {
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.thumbnail {
+  text-align: center;
+  margin-top: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  background-color: #1e1c49;
+}
+
+.thumbnail img {
+  width: 60%;
+  margin-top: -60px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px black;
+  background-color: #f9f9f9;
+}
+
+.thumbnail a {
+  display: inline-block;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background-color: #8ea604;
+  color: #f9f9f9;
+}
+
+.thumbnail a:hover {
+  text-decoration: none;
+  background-color: #bfce32;
+}
+
+#cassatt {
+  background-color: #4c4c4c;
+}
+
+/* -- INTRO CYTO -- */
+#intro_cyto {
+  margin-top: 55px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  background-color: #f9f9f9;
+  text-align: center;
+  align-content: center;
+}
+
+#intro_cyto h4.section_subtitle {
+  margin-top: 0px;
+  color: #4c4c4c;
+}
+
+#intro_cyto h2.section_title {
+  margin-bottom: 30px;
+  color: #ea660c;
+}
+
+#intro_cyto p {
+  margin-bottom: 30px;
+  color: #4c4c4c;
+}
+
+#intro_cyto img {
+  width: 55%;
+  margin-bottom: 30px;
+}
+
+#intro_cyto h3 {
+  color: #4c4c4c;
+  font-family: Urbanist, Arial, sans-serif;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+#intro_cyto .number_card p {
+  font-family: Cormorant-Garamond, serif;
+  font-style: italic;
+  color: #4c4c4c;
+}
+
+#intro_cyto a {
+  display: inline-block;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background-color: #ea660c;
+  color: #f9f9f9;
+}
+
+#intro_cyto a:hover {
+  text-decoration: none;
+  background-color: #e87f38;
+}
+
+/* -- FUNDING -- */
+#funding {
+  margin-top: 65px;
+  margin-bottom: 65px;
+  text-align: center;
+}
+
+#funding img {
+  width: 75%;
+}
+
+/*# sourceMappingURL=home_style.css.map */

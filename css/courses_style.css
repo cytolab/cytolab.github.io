@@ -1,0 +1,59 @@
+/*# sourceMappingURL=courses_style.scss.map */
+/* -- TITLE BANNER -- */
+#courses_banner h1 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+/* -- COURSES -- */
+.course_card {
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  background-color: #1e1c49;
+}
+
+.course_card img {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px black;
+  background-color: #f9f9f9;
+}
+
+.course_card h4 {
+  font-size: 24px;
+}
+
+.course_card h5 {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.course_card a {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background-color: #C43C75;
+  color: #f9f9f9;
+}
+
+.course_card a:hover {
+  text-decoration: none;
+  background-color: #cc5b8a;
+}
+
+/*# sourceMappingURL=courses_style.css.map */
