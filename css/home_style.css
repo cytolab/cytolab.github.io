@@ -1,41 +1,7 @@
-/* -- GLOBAL -- */
-body {
-  background-color: #121037;
-  color: #f9f9f9;
-  margin: 0px;
-  font-family: Urbanist, Arial, sans-serif;
-}
-
-.section_subtitle {
-  margin-top: 55px;
-  margin-bottom: 0px;
-  text-align: center;
-  font-weight: 200;
-  font-size: 24px;
-  letter-spacing: 1.5px;
-}
-
-.section_title {
-  margin-bottom: 30px;
-  text-align: center;
-  font-size: 50px;
-  font-weight: 600;
-  letter-spacing: 1.5px;
-}
-
-p {
-  margin-bottom: 0px;
-  font-size: 16px;
-  font-family: Cormorant-Garamond, serif;
-  letter-spacing: 1px;
-  color: #f9f9f9;
-  color: rgba(255, 255, 255, 0.65);
-}
-
 /* -- INTRO BANNER -- */
 #intro_banner {
   height: 75vh;
-  background-image: url("tSNE_anim_03.gif");
+  background-image: url("../tSNE_anim_03.gif");
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -48,36 +14,15 @@ p {
   letter-spacing: 1.5px;
 }
 
-/* -- NAVBAR -- */
-#navbar {
-  margin-left: 40px;
-  margin-right: 40px;
-  border-top: 1px solid #f9f9f9;
-  border-bottom: 1px solid #f9f9f9;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-}
-
-#navbar a {
-  padding-right: 30px;
-  padding-left: 30px;
-  font-family: Urbanist, Arial, sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 1.5px;
-  color: #f9f9f9;
-}
-
-#navbar a:hover {
-  font-weight: 600;
-}
-
 /* -- WORKFLOWS -- */
 #wkflow_intro h2.section_title {
   margin-bottom: 30px;
   color: #8ea604;
+}
+
+.wkflow_apps {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .thumbnail h4 {
@@ -203,12 +148,4 @@ p {
   width: 75%;
 }
 
-/* -- FOOTER -- */
-#footer {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #302f2f;
-  text-align: center;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=home_style.css.map */

@@ -1,0 +1,67 @@
+/*# sourceMappingURL=courses_style.scss.map */
+
+$header_stack: Urbanist, Arial, sans-serif;
+$body_stack: Cormorant-Garamond, serif;
+$cornsilk: #f9f9f9;
+$text_gray: #4c4c4c;
+$darkest_gray: #302f2f;
+$irish_blue: #121037;
+$irish_blue_light: #1e1c49;
+$rust: #ea660c;
+$rust_light: #e87f38;
+$citron: #8ea604;
+$citron_light: #bfce32; 
+$magenta: #C43C75; 
+$magenta_light: #cc5b8a;
+
+/* -- TITLE BANNER -- */ 
+#courses_banner h1 {
+	margin-top: 50px;
+	margin-bottom: 25px;
+	text-align: center;
+	font-size: 3rem;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+} 
+ 
+/* -- COURSES -- */ 
+.course_card {
+	margin-top: 80px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border-radius: 5px;
+	background-color: $irish_blue_light;
+}
+.course_card img {
+	width: 100%;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 5px 15px black;
+	background-color: $cornsilk;
+}
+.course_card h4 {
+	font-size: 24px;
+}
+.course_card h5 {
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+.course_card a {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	background-color: $magenta;
+	color: $cornsilk;
+}
+.course_card a:hover {
+	text-decoration: none;
+	background-color: $magenta_light;
+}
