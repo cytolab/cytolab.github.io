@@ -10,6 +10,10 @@ $rust_light: #e87f38;
 $citron: #8ea604;
 $citron_light: #bfce32; 
 
+#home_btn {
+	font-weight: 600;
+}
+
 /* -- INTRO BANNER -- */ 
 #intro_banner {
 	height: 75vh;
@@ -19,7 +23,7 @@ $citron_light: #bfce32;
 	background-size: contain;
 }
 #intro_banner h1 {
-	margin-top: 45vh;
+	margin-top: 50vh;
 	font-size: 5.5rem;
 	font-weight: 600;
 	letter-spacing: 1.5px;
@@ -31,9 +35,9 @@ $citron_light: #bfce32;
 	color: $citron;
 }
 .wkflow_apps {
-	margin-left: 30px;
 	margin-right: 30px;
-}
+	margin-left: 30px;
+} 
 .thumbnail h4 {
 	font-size: 24px;
 	letter-spacing: 1px;

@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Urbanist">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant-Garamond">	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant-Garamond">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/home_style.css">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
@@ -17,7 +17,7 @@
 	<div class="row no-gutters">
 		<div class="col-4 offset-2">
 			<h1>CytoLab</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			<p>Learn to analyze flow and mass cytometry data.</p>
 		</div>
 	</div>
 </div>
@@ -25,22 +25,22 @@
 <!-- NAVBAR -->
 <div id="navbar">
 	<a id="home_btn" href="#">Home</a>
-	<a id="github_btn" href="https://github.com/cytolab">Github</a>
-	<a href="">About</a>
-	<a href="">Courses</a>
-	<a href="">Contact</a>
+	<a href="https://cytolab.github.io/courses.html">Courses</a>
+	<a href="https://github.com/cytolab">Github</a>
+	<!-- <a href="">About</a> -->
+	<!-- <a href="">Contact</a> -->
 	<a href="https://my.vanderbilt.edu/irishlab/">Irish Lab</a>
 </div>
 
 <!-- WORKFLOWS -->
-<div id="wkflow_intro" class="row">
+<div id="wkflow_intro" class="row no-gutters">
 	<div class="col-12">
 		<h4 class="section_subtitle">Try our</h4>
 		<h2 class="section_title">Workflows</h2>
 	</div>
 </div>
 
-<div class="wkflow_apps row">
+<div class="wkflow_apps row no-gutters">
 	<div class="col-10 offset-1">
 		<div class="row">
 			<div class="col-4">
@@ -48,7 +48,7 @@
 					<img src="pics/TREX_thumbnail.svg">
 					<h4>T-REX</h4>
 					<p>Track rare populations in COVID-19 data</p>	
-					<a href="#" target="_blank">Visit</a>
+					<a href="https://cytolab.shinyapps.io/TREX/" target="_blank">Visit</a>
 				</div>
 			</div>
 			<div class="col-4">
@@ -56,7 +56,7 @@
 					<img src="pics/SCLC_thumbnail.svg">
 					<h4>SCLC</h4>
 					<p>Explore small scale lung cancer data</p>
-					<a href="#" target="_blank">Visit</a>						
+					<a href="https://cytolab.shinyapps.io/SCLCv01/" target="_blank">Visit</a>					
 				</div>
 			</div>
 			<div class="col-4">
@@ -64,13 +64,13 @@
 					<img src="pics/PBMC_thumbnail.svg">
 					<h4>PBMC</h4>
 					<p>Explore peripheral blood mononuclear cells</p>
-					<a href="#" target="_blank">Visit</a>	
+					<a href="https://cytolab.shinyapps.io/PBMC/" target="_blank">Visit</a>	
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<div class="wkflow_apps row">
+<div class="wkflow_apps row no-gutters">
 	<div class="col-10 offset-1">
 		<div class="row">
 			<div class="col-4">
@@ -78,14 +78,14 @@
 					<img src="pics/cGVHD_thumbnail.svg">
 					<h4>cGVHD</h4>
 					<p>Chronic graft versus host disease analysis where each point is a patient</p>	
-					<a href="#" target="_blank">Visit</a>	
+					<a href="http://cytolab.shinyapps.io/cGVHD/" target="_blank">Visit</a>	
 				</div>
 			</div>
 			<div class="col-4">
 				<div class="thumbnail">
 					<img id="cassatt" src="pics/cassatt_placeholder.png">
 					<h4>CASSATT</h4>
-					<p>Imaging pipeline in collaboration with the Ihrie lab. Coming soon.</p>	
+					<p>Imaging pipeline in collaboration with the Ihrie lab. Coming soon.</p>
 					<a href="#" target="_blank">Visit</a>
 				</div>
 			</div>
@@ -117,7 +117,7 @@
 				<div id="cyto_01" class="col-4 number_card">
 					<h3>Why Single Cell Biology?</h3>
 					<p>Explore a comparison with western blots</p>
-					<a href="#" target="_blank">Visit</a>
+					<a href="https://cytolab.shinyapps.io/westblot-test/" target="_blank">Visit</a>
 				</div>
 				<div id="cyto_02" class="col-4 number_card">
 					<h3>Cytometry Workflows</h3>
@@ -135,7 +135,7 @@
 </div>
 
 <!-- FUNDING -->
-<div id="funding" class="row">
+<div id="funding" class="row no-gutters">
 	<div class="col-12">
 		<h2 class="section_title">Funding</h2>
 	</div>
@@ -150,14 +150,13 @@
 </div>
 
 <!-- FOOTER -->
-<div id="footer" class="row">
-	<div class="col-10 offset-1">
+<div id="footer">
 		<p>© Copyright 2022 by Cass Mayeda, Sierra Lima, and Jonathan Irish, All Rights Reserved.</p>
-	</div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>

@@ -14,6 +14,10 @@ $citron_light: #bfce32;
 $magenta: #C43C75; 
 $magenta_light: #cc5b8a;
 
+#courses_btn {
+	font-weight: 600 !important;
+}
+
 /* -- TITLE BANNER -- */ 
 #courses_banner h1 {
 	margin-top: 50px;
@@ -24,9 +28,12 @@ $magenta_light: #cc5b8a;
 	letter-spacing: 1.5px;
 } 
  
-/* -- COURSES -- */ 
+/* -- COURSE CARDS -- */ 
+#all_course_cards {
+	margin-bottom: 40px;
+}
 .course_card {
-	margin-top: 80px;
+	margin-top: 40px;
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -42,8 +49,10 @@ $magenta_light: #cc5b8a;
 	background-color: $cornsilk;
 }
 .course_card h4 {
+	padding-top: 15px;
 	font-size: 24px;
 }
+.course_card h3 { padding-top: 15px; }
 .course_card h5 {
 	font-size: 16px;
 	font-weight: 400;
@@ -64,4 +73,79 @@ $magenta_light: #cc5b8a;
 .course_card a:hover {
 	text-decoration: none;
 	background-color: $magenta_light;
+}
+
+/* -- COURSE INTRO [PAGES] -- */ 
+.course_name {
+	text-align: center;
+}
+.course_name h2 {
+	margin-top: 50px;
+	margin-bottom: 25px;
+	font-size: 35px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+}
+.course_name h5 {
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+.course_name p { margin-bottom: 30px; }
+
+/* -- COURSE CONTENT [PAGES] -- */ 
+.deck iframe {
+	width: 100%;
+	aspect-ratio: 16/13;
+}
+.intro_card {
+	min-height: 140px;
+	margin-top: 40px;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: $cornsilk;
+	color: $text_gray;
+}
+.intro_card img {
+	display: inline-block;
+	width: 75%;
+}
+.intro_card p {
+	display: block;
+	color: $text_gray;
+	font-style: italic;
+}
+.intro_card h3 { 
+	padding-top: 15px;
+}
+.intro_card a {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	background-color: $rust;
+	color: $cornsilk;
+}
+.intro_card a:hover {
+	background-color: $rust_light;
+	text-decoration: none;
+}
+.wkflow {
+	margin-bottom: 40px;
+}
+.wkflow img {
+	width: 75%;
+	content-align: right;
+}
+.wkflow a {
+	background-color: $citron;
+	color: $cornsilk;
+}
+.wkflow a:hover {
+	background-color: $citron_light;
+	text-decoration: none;
 }
