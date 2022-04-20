@@ -1,4 +1,15 @@
 /*# sourceMappingURL=courses_style.scss.map */
+a {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
 /* -- TITLE BANNER -- */
 #courses_banner h1 {
   margin-top: 50px;
@@ -11,11 +22,11 @@
 
 /* -- COURSE CARDS -- */
 #all_course_cards {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .course_card {
-  margin-top: 50px;
+  margin-top: 40px;
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
@@ -33,7 +44,12 @@
 }
 
 .course_card h4 {
+  padding-top: 15px;
   font-size: 24px;
+}
+
+.course_card h3 {
+  padding-top: 15px;
 }
 
 .course_card h5 {
@@ -43,14 +59,6 @@
 }
 
 .course_card a {
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 40px;
-  padding-left: 40px;
-  border-radius: 5px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
   background-color: #C43C75;
   color: #f9f9f9;
 }
@@ -83,10 +91,63 @@
   margin-bottom: 30px;
 }
 
-/* -- COURSE DECK [PAGES] -- */
+/* -- COURSE CONTENT [PAGES] -- */
 .deck iframe {
   width: 100%;
   aspect-ratio: 16/13;
+}
+
+.intro_card {
+  min-height: 140px;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #4c4c4c;
+}
+
+.intro_card img {
+  display: inline-block;
+  width: 75%;
+}
+
+.intro_card p {
+  display: block;
+  color: #4c4c4c;
+  font-style: italic;
+}
+
+.intro_card h3 {
+  padding-top: 15px;
+}
+
+.intro_card a {
+  background-color: #ea660c;
+  color: #f9f9f9;
+}
+
+.intro_card a:hover {
+  background-color: #e87f38;
+  text-decoration: none;
+}
+
+.wkflow {
+  margin-bottom: 40px;
+}
+
+.wkflow img {
+  width: 75%;
+  content-align: right;
+}
+
+.wkflow a {
+  background-color: #8ea604;
+  color: #f9f9f9;
+}
+
+.wkflow a:hover {
+  background-color: #bfce32;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=courses_style.css.map */
