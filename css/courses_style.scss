@@ -14,15 +14,8 @@ $citron_light: #bfce32;
 $magenta: #C43C75; 
 $magenta_light: #cc5b8a;
 
-a {
-	display: inline-block;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 40px;
-	padding-left: 40px;
-	border-radius: 5px;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
+#courses_btn {
+	font-weight: 600 !important;
 }
 
 /* -- TITLE BANNER -- */ 
@@ -66,6 +59,14 @@ a {
 	letter-spacing: 1.5px;
 }
 .course_card a {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
 	background-color: $magenta;
 	color: $cornsilk;
 }
@@ -118,6 +119,14 @@ a {
 	padding-top: 15px;
 }
 .intro_card a {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
 	background-color: $rust;
 	color: $cornsilk;
 }

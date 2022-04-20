@@ -1,13 +1,6 @@
 /*# sourceMappingURL=courses_style.scss.map */
-a {
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 40px;
-  padding-left: 40px;
-  border-radius: 5px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
+#courses_btn {
+  font-weight: 600 !important;
 }
 
 /* -- TITLE BANNER -- */
@@ -59,6 +52,14 @@ a {
 }
 
 .course_card a {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
   background-color: #C43C75;
   color: #f9f9f9;
 }
@@ -122,6 +123,14 @@ a {
 }
 
 .intro_card a {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
   background-color: #ea660c;
   color: #f9f9f9;
 }
