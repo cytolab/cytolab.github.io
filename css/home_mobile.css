@@ -1,0 +1,47 @@
+/* -- PHONES -- */
+@media screen and (max-width: 480px) {
+  #intro_banner {
+    background-position: top right;
+  }
+
+  #intro_banner h1 {
+    margin-top: 55vh;
+    margin-left: 40px;
+    font-size: 3rem;
+  }
+
+  #intro_banner p {
+    margin-left: 40px;
+  }
+
+  #wkflow_intro h2.section_title {
+    margin-bottom: 0px;
+  }
+
+  #intro_cyto {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #intro_cyto h2.section_title {
+    margin-bottom: 20px;
+  }
+
+  #intro_cyto p {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+  }
+
+  #funding {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #funding img {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=home_mobile.css.map */

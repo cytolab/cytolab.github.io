@@ -1,0 +1,23 @@
+/* -- PHONES -- */
+@media screen and (max-width: 480px) {
+  #navbar {
+    text-align: center;
+  }
+
+  #navbar a {
+    display: block;
+    width: 100%;
+  }
+
+  .section_subtitle {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .section_title {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */
