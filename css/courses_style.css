@@ -69,6 +69,10 @@
   background-color: #cc5b8a;
 }
 
+#all_course_cards {
+  margin-bottom: 300px;
+}
+
 /* -- COURSE INTRO [PAGES] -- */
 .course_name {
   text-align: center;
