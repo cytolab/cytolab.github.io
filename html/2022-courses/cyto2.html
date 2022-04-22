@@ -7,17 +7,17 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Urbanist">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant-Garamond">
 	<link rel="stylesheet" type="text/css" href="../../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/mobile.css">
 	<link rel="stylesheet" type="text/css" href="../../css/courses_style.css">
+	<link rel="stylesheet" type="text/css" href="../../css/courses_mobile.css">
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
 	<title>Cytolab 2022 Course</title>
 </head>
 <body>
 
 <!-- TITLE BANNER --> 
-<div id="courses_banner" class="row no-gutters">
-	<div class="col-12">
-		<h1>Courses</h1>
-	</div>
+<div id="courses_banner">
+	<h1>Courses</h1>
 </div>
 
 <!-- NAVBAR -->
@@ -31,8 +31,8 @@
 </div>
 
 <!-- COURSE INTRO -->
-<div class="course_name row">
-	<div class="col-10 offset-1">
+<div class="course_name row no-gutters">
+	<div class="col-sm-10 offset-sm-1">
 		<h2>Data Analysis for Cytometry, Part II</h2>
 		<h5>June 3rd, 2022</h5>
 		<p>Scientific tutorial for ISAC's annual CYTO conference.</p>		
@@ -40,39 +40,37 @@
 </div>
 
 <!-- COURSE CONTENT -->
-<div class="deck row">
-	<div class="col-6 offset-3">
+<div class="deck row no-gutters">
+	<div class="col-sm-6 offset-sm-3">
 		<iframe src="../../pdfs/sample_deck.pdf"></iframe>
 	</div>
 </div>
 
-<div class="wkflow row">
-	<div class="col-8 offset-2">
-		<div class="course_card row">
-			<div class="col-3"><img src="../../pics/PBMC_thumbnail.svg"></div>
-			<div class="col-7">
+<div class="wkflow row no-gutters">
+	<div class="col-sm-8 offset-sm-2">
+		<div class="course_card row no-gutters">
+			<div class="col-sm-3"><img src="../../pics/PBMC_thumbnail.svg"></div>
+			<div class="col-sm-7">
 				<h3>4. PBMC</h3>
 				<p>Explore a comparison with western blots</p>	
 			</div>
-			<div class="col-2 d-flex align-items-center"><a href="https://cytolab.shinyapps.io/PBMC/" target="_blank">Visit</a></div>
+			<div class="col-sm-2 d-flex align-items-center"><a href="https://cytolab.shinyapps.io/PBMC/" target="_blank">Visit</a></div>
 		</div>
-		<div class="course_card row">
-			<div class="col-3"><img src="../../pics/TREX_thumbnail.svg"></div>
-			<div class="col-7">
+		<div class="course_card row no-gutters">
+			<div class="col-sm-3"><img src="../../pics/TREX_thumbnail.svg"></div>
+			<div class="col-sm-7">
 				<h3>5. T-REX</h3>
 				<p>Steps in data analysis pipelines</p>	
 			</div>
-			<div class="col-2 d-flex align-items-center"><a href="https://cytolab.shinyapps.io/TREX/" target="_blank">Visit</a></div>
+			<div class="col-sm-2 d-flex align-items-center"><a href="https://cytolab.shinyapps.io/TREX/" target="_blank">Visit</a></div>
 		</div>
 	</div>
 </div>
 
 
 <!-- FOOTER -->
-<div id="footer" class="row">
-	<div class="col-10 offset-1">
-		<p>© Copyright 2022 by Cass Mayeda, Sierra Lima, and Jonathan Irish, All Rights Reserved.</p>
-	</div>
+<div id="footer">
+	<p>© Copyright 2022 by Cass Mayeda, Sierra Lima, and Jonathan Irish, All Rights Reserved.</p>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
