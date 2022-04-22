@@ -2,6 +2,8 @@
 @media screen and (max-width: 480px) {
   #navbar {
     text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
   }
 
   #navbar a {
@@ -10,13 +12,20 @@
   }
 
   .section_subtitle {
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 16px;
   }
 
   .section_title {
     margin-bottom: 10px;
     font-size: 30px;
+  }
+
+  #footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 

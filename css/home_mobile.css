@@ -1,42 +1,56 @@
 /* -- PHONES -- */
 @media screen and (max-width: 480px) {
   #intro_banner {
-    background-position: top right;
+    background-position: top;
   }
 
   #intro_banner h1 {
     margin-top: 55vh;
-    margin-left: 40px;
+    margin-left: 30px;
     font-size: 3rem;
   }
 
   #intro_banner p {
-    margin-left: 40px;
+    margin-left: 30px;
   }
 
   #wkflow_intro h2.section_title {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
+  }
+
+  .thumbnail {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   #intro_cyto {
-    margin-top: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
   }
 
   #intro_cyto h2.section_title {
     margin-bottom: 20px;
   }
 
+  #intro_cyto img {
+    margin-bottom: 20px;
+    height: auto;
+  }
+
   #intro_cyto p {
-    padding-right: 15px;
-    padding-left: 15px;
     margin-bottom: 20px;
   }
 
+  #intro_cyto a {
+    margin-bottom: 30px;
+  }
+
   #funding {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   #funding img {
