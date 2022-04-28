@@ -1,3 +1,9 @@
+/* -- TABLET -- */
+@media screen and (max-width: 768px) {
+  #navbar a {
+    width: 15%;
+  }
+}
 /* -- PHONES -- */
 @media screen and (max-width: 480px) {
   #navbar {
