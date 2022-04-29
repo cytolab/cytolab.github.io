@@ -126,14 +126,15 @@ $magenta_light: #cc5b8a;
 	font-style: italic;
 }
 .intro_card h3 { 
-	padding-top: 15px;
+	padding-top: 5px;
 }
 .intro_card a {
 	display: inline-block;
+	width: 100%;
+	max-width: 150px;
+	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-right: 40px;
-	padding-left: 40px;
 	border-radius: 5px;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
