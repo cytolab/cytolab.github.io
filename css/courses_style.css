@@ -18,6 +18,11 @@
   margin-bottom: 40px;
 }
 
+#all_course_cards .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .course_card {
   margin-top: 40px;
   padding-top: 20px;
@@ -37,7 +42,7 @@
 }
 
 .course_card h4 {
-  padding-top: 15px;
+  padding-top: 5px;
   font-size: 24px;
 }
 
@@ -53,11 +58,12 @@
 
 .course_card a {
   display: inline-block;
+  width: 100%;
+  max-width: 150px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 40px;
-  padding-left: 40px;
   border-radius: 5px;
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   background-color: #C43C75;

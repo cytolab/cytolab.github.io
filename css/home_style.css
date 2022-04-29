@@ -130,6 +130,7 @@
 
 #intro_cyto a {
   display: inline-block;
+  align-self: center;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 40px;
