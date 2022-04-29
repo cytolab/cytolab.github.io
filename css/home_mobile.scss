@@ -1,27 +1,22 @@
-/* -- SM LAPTOP & TABLET -- */
+/* -- SM LAPTOP -- */
 @media screen and (max-width: 991px) {
 	#intro_banner { 
-		height: 60vh;	
+		height: 62vh;	
 		background-position: top right; 
 	}
 	#intro_banner h1 {
 		margin-top: 40vh;
+		margin-left: 40px;
 		font-size: 4rem;
 	}
-	#intro_cyto img {
-		width: 80%;
-	}
+	#intro_banner p { margin-left: 40px; }
+	#intro_cyto img { width: 80%; }
 }
 
-/* -- PHONES -- */ 
-@media screen and (max-width: 576px) {
-	#intro_banner { background-position: top; }
-	#intro_banner h1 {
-		margin-top: 55vh;
-		margin-left: 30px;
-		font-size: 3rem;
-	}
-	#intro_banner p { margin-left: 30px; }
+/* -- TABLET -- */ 
+@media screen and (max-width: 767px) {
+	#intro_banner { height: 55vh; }
+	#intro_banner h1 { font-size: 3rem; }
 	#wkflow_intro h2.section_title { margin-bottom: 10px; }
 	.thumbnail { 
 		padding-right: 20px;
@@ -38,6 +33,7 @@
 		margin-bottom: 20px;
 	}
 	#intro_cyto img { 
+		width: 60%;
 		margin-bottom: 20px; 
 		height: auto;
 	}
@@ -47,7 +43,25 @@
 		margin-top: 30px;
 		margin-bottom: 30px;
 	}
-	#funding img { width: 50%; }
+	#funding img { 
+		width: 45%; 
+		padding-bottom: 25px;
+	}
 }
 
+/* -- PHONES -- */ 
+@media screen and (max-width: 575px) {
+
+}
+
+// br to adapt banner w/navbar
+@media screen and (max-width: 500px) {
+	#intro_banner h1 { margin-left: 30px; }
+	#intro_banner p { margin-left: 30px; }
+}
+
+@media screen and (max-width: 402px) {
+	#intro_banner { height: 58vh; }
+	#intro_banner p { padding-right: 30px; }
+}
 
