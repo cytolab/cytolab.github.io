@@ -61,13 +61,14 @@
 
 /* -- PHONES -- */ 
 @media screen and (max-width: 575px) {
+	#intro_banner { height: 60vh; }
 	#intro_banner h1 { margin-left: 30px; }
 	#intro_banner p { margin-left: 30px; }
 }
 
 // br to adapt top banner 
 @media screen and (max-width: 405px) {
-	#intro_banner { height: 62vh; }
+	#intro_banner { height: 68vh; }
 	#intro_banner p { padding-right: 30px; }
 }
 
