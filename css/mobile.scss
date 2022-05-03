@@ -1,13 +1,22 @@
-/* -- TABLET -- */ 
-@media screen and (max-width: 768px) {
+/* -- SM LAPTOP & TABLET -- */
+@media screen and (max-width: 991px) {
 	#navbar a { 
 		width: 15%;
 	}
+	#footer p { 
+		max-width: 75%; 
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
 
+// br for navbar 
+@media screen and (max-width: 630px) {
+	#navbar a { width: 20%; }
 }
 
 /* -- PHONES -- */ 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 575px) {
 	#navbar { 
 		text-align: center; 
 		margin-right: 30px;
@@ -16,7 +25,9 @@
 	#navbar a {
 		display: block;
 		width: 100%;
+		padding-bottom: 12px;
 	}
+	#navbar a:last-of-type { padding-bottom: 0px; }
 	.section_subtitle { 
 		margin-top: 30px;
 		font-size: 16px; 
@@ -32,4 +43,3 @@
 		padding-left: 20px;
 	}
 }
-

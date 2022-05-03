@@ -1,10 +1,5 @@
-/* -- PHONES -- */
-@media screen and (max-width: 480px) {
-  #courses_banner h1 {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-
+/* -- SM LAPTOP & TABLET -- */
+@media screen and (max-width: 991px) {
   #all_course_cards {
     margin-bottom: 30px;
   }
@@ -16,24 +11,104 @@
 
   .course_card {
     margin-top: 30px;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .course_card .col-lg-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .course_card img {
+    display: block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+  }
+
+  .course_card h3 {
+    padding-top: 0px;
+    margin-bottom: 2px;
+  }
+
+  .course_card p {
+    margin-bottom: 10px;
+  }
+
+  .course_card .col-lg-7 {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  .course_card a {
+    display: block;
+    margin-top: 8px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .intro_card {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .intro_card img {
+    display: block;
+    width: 60%;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro_card h3 {
+    font-size: 24px;
+    margin-bottom: 2px;
+  }
+
+  .intro_card p {
+    margin-bottom: 10px;
+  }
+
+  .intro_card a {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .wkflow {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .wkflow img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+/* -- PHONES -- */
+@media screen and (max-width: 576px) {
+  #courses_banner h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .course_card {
+    width: 100%;
     margin-left: 30px;
     margin-right: 30px;
   }
 
-  .course_card .col-sm-3 {
-    padding-right: 0px;
-    padding-left: 0px;
+  .course_card img {
+    width: 100%;
   }
 
-  .course_card .col-sm-7 {
+  .course_card .col-lg-7 {
     padding-right: 0px;
     padding-left: 0px;
-  }
-
-  .course_card a {
-    margin-top: 8px;
-    margin-right: auto;
-    margin-left: auto;
   }
 
   .course_name h2 {
@@ -53,44 +128,27 @@
     aspect-ratio: 1;
   }
 
-  .intro_card {
-    margin-top: 30px;
-    margin-right: 30px;
+  .col-lg-8 {
     margin-left: 30px;
-    text-align: center;
+    margin-right: 30px;
   }
 
-  .intro_card img {
-    display: block;
+  .intro_card {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .wkflow .course_card {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .wkflow .course_card img {
     width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .intro_card h3 {
-    font-size: 24px;
-  }
-
-  .intro_card p {
-    margin-bottom: 8px;
-  }
-
-  .intro_card a {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .wkflow {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-  .wkflow img {
-    display: block;
     margin-right: auto;
     margin-left: auto;
   }
 }
-/* -- TABLET -- */
 
 /*# sourceMappingURL=courses_mobile.css.map */

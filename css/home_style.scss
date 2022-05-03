@@ -122,6 +122,7 @@ $citron_light: #bfce32;
 }
 #intro_cyto a {
 	display: inline-block;
+	align-self: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right: 40px;
@@ -145,4 +146,21 @@ $citron_light: #bfce32;
 }
 #funding img {
 	width: 75%;
+}
+#funding h5 {
+	margin-top: 20px;
+	font-family: $body-stack;
+	color: rgba(255, 255, 255, 0.65);
+}
+#funding a {
+	color: rgba(255, 255, 255, 0.65);
+}
+#funding a:hover {
+	text-decoration: none;
+	color: #A7CF36;
+}
+#orcid {
+	margin-top: -5px;
+	width: 18px !important;
+	height: 18px;
 }

@@ -32,6 +32,10 @@ $magenta_light: #cc5b8a;
 #all_course_cards {
 	margin-bottom: 40px;
 }
+#all_course_cards .row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
 .course_card {
 	margin-top: 40px;
 	padding-top: 20px;
@@ -49,7 +53,7 @@ $magenta_light: #cc5b8a;
 	background-color: $cornsilk;
 }
 .course_card h4 {
-	padding-top: 15px;
+	padding-top: 5px;
 	font-size: 24px;
 }
 .course_card h3 { padding-top: 15px; }
@@ -60,11 +64,12 @@ $magenta_light: #cc5b8a;
 }
 .course_card a {
 	display: inline-block;
+	width: 100%;
+	max-width: 150px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-right: 40px;
-	padding-left: 40px;
 	border-radius: 5px;
+	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	background-color: $magenta;
@@ -121,14 +126,15 @@ $magenta_light: #cc5b8a;
 	font-style: italic;
 }
 .intro_card h3 { 
-	padding-top: 15px;
+	padding-top: 5px;
 }
 .intro_card a {
 	display: inline-block;
+	width: 100%;
+	max-width: 150px;
+	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	padding-right: 40px;
-	padding-left: 40px;
 	border-radius: 5px;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;

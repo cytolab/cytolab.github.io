@@ -1,17 +1,32 @@
-/* -- PHONES -- */
-@media screen and (max-width: 480px) {
+/* -- SM LAPTOP -- */
+@media screen and (max-width: 991px) {
   #intro_banner {
-    background-position: top;
+    height: 62vh;
+    background-position: top right;
   }
 
   #intro_banner h1 {
-    margin-top: 55vh;
-    margin-left: 30px;
-    font-size: 3rem;
+    margin-top: 40vh;
+    margin-left: 40px;
+    font-size: 4rem;
   }
 
   #intro_banner p {
-    margin-left: 30px;
+    margin-left: 40px;
+  }
+
+  #intro_cyto img {
+    width: 80%;
+  }
+}
+/* -- TABLET -- */
+@media screen and (max-width: 767px) {
+  #intro_banner {
+    height: 58vh;
+  }
+
+  #intro_banner h1 {
+    font-size: 3rem;
   }
 
   #wkflow_intro h2.section_title {
@@ -36,6 +51,7 @@
   }
 
   #intro_cyto img {
+    width: 60%;
     margin-bottom: 20px;
     height: auto;
   }
@@ -54,23 +70,39 @@
   }
 
   #funding img {
-    width: 50%;
+    width: 45%;
+    padding-bottom: 25px;
+  }
+
+  #funding h5 {
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 16px;
+  }
+
+  #orcid {
+    height: 18px !important;
+    padding-bottom: 0px !important;
   }
 }
-/* -- TABLET -- */
-@media screen and (max-width: 768px) {
-  #intro_banner {
-    height: 55vh;
-    background-position: top right;
-  }
-
+/* -- PHONES -- */
+@media screen and (max-width: 575px) {
   #intro_banner h1 {
-    margin-top: 40vh;
-    font-size: 4rem;
+    margin-left: 30px;
   }
 
-  #intro_cyto img {
-    width: 80%;
+  #intro_banner p {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 405px) {
+  #intro_banner {
+    height: 62vh;
+  }
+
+  #intro_banner p {
+    padding-right: 30px;
   }
 }
 
