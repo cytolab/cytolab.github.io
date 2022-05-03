@@ -60,13 +60,12 @@
 }
 
 /* -- PHONES -- */ 
-// @media screen and (max-width: 575px) {}
-
-// br to adapt banner w/navbar
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 575px) {
 	#intro_banner h1 { margin-left: 30px; }
 	#intro_banner p { margin-left: 30px; }
 }
+
+// br to adapt top banner 
 @media screen and (max-width: 405px) {
 	#intro_banner { height: 62vh; }
 	#intro_banner p { padding-right: 30px; }

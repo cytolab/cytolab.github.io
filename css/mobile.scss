@@ -16,7 +16,18 @@
 }
 
 /* -- PHONES -- */ 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
+	#navbar { 
+		text-align: center; 
+		margin-right: 30px;
+		margin-left: 30px;
+	}
+	#navbar a {
+		display: block;
+		width: 100%;
+		padding-bottom: 12px;
+	}
+	#navbar a:last-of-type { padding-bottom: 0px; }
 	.section_subtitle { 
 		margin-top: 30px;
 		font-size: 16px; 
@@ -30,18 +41,5 @@
 		padding-bottom: 30px;
 		padding-right: 20px;
 		padding-left: 20px;
-	}
-}
-
-// br for navbar 
-@media screen and (max-width: 500px) {
-	#navbar { 
-		text-align: center; 
-		margin-right: 30px;
-		margin-left: 30px;
-	}
-	#navbar a {
-		display: block;
-		width: 100%;
 	}
 }

@@ -87,7 +87,7 @@
   }
 }
 /* -- PHONES -- */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 575px) {
   #intro_banner h1 {
     margin-left: 30px;
   }
