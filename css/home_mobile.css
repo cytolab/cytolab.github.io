@@ -88,6 +88,10 @@
 }
 /* -- PHONES -- */
 @media screen and (max-width: 575px) {
+  #intro_banner {
+    height: 60vh;
+  }
+
   #intro_banner h1 {
     margin-left: 30px;
   }
@@ -98,7 +102,7 @@
 }
 @media screen and (max-width: 405px) {
   #intro_banner {
-    height: 62vh;
+    height: 68vh;
   }
 
   #intro_banner p {
