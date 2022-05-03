@@ -15,7 +15,7 @@
 
 /* -- TABLET -- */ 
 @media screen and (max-width: 767px) {
-	#intro_banner { height: 55vh; }
+	#intro_banner { height: 58vh; }
 	#intro_banner h1 { font-size: 3rem; }
 	#wkflow_intro h2.section_title { margin-bottom: 10px; }
 	.thumbnail { 
@@ -47,21 +47,28 @@
 		width: 45%; 
 		padding-bottom: 25px;
 	}
+	#funding h5 {
+		margin-top: 0px;
+		margin-right: 30px;
+		margin-left: 30px;
+		font-size: 16px;
+	}
+	#orcid {
+		height: 18px !important;
+		padding-bottom: 0px !important;
+	}
 }
 
 /* -- PHONES -- */ 
-@media screen and (max-width: 575px) {
-
-}
+// @media screen and (max-width: 575px) {}
 
 // br to adapt banner w/navbar
 @media screen and (max-width: 500px) {
 	#intro_banner h1 { margin-left: 30px; }
 	#intro_banner p { margin-left: 30px; }
 }
-
-@media screen and (max-width: 402px) {
-	#intro_banner { height: 58vh; }
+@media screen and (max-width: 405px) {
+	#intro_banner { height: 62vh; }
 	#intro_banner p { padding-right: 30px; }
 }
 

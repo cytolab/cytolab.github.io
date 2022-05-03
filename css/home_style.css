@@ -158,4 +158,25 @@
   width: 75%;
 }
 
+#funding h5 {
+  margin-top: 20px;
+  font-family: Cormorant-Garamond, serif;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+#funding a {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+#funding a:hover {
+  text-decoration: none;
+  color: #A7CF36;
+}
+
+#orcid {
+  margin-top: -5px;
+  width: 18px !important;
+  height: 18px;
+}
+
 /*# sourceMappingURL=home_style.css.map */
