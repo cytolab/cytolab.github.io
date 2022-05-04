@@ -120,12 +120,11 @@
   }
 
   .deck {
-    margin-left: 30px;
-    margin-right: 30px;
+    display: none;
   }
 
-  .deck iframe {
-    aspect-ratio: 1;
+  .deck_mobile {
+    display: block;
   }
 
   .col-lg-8 {
