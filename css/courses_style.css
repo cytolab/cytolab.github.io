@@ -108,6 +108,26 @@
   aspect-ratio: 16/13;
 }
 
+.deck_mobile {
+  display: none;
+  width: 100%;
+  text-align: center;
+}
+
+.deck_mobile a {
+  color: #f9f9f9;
+  font-size: 1.75rem;
+}
+
+.deck_mobile a:hover {
+  text-decoration: none;
+}
+
+.deck_mobile img {
+  height: 30px;
+  margin-top: -4px;
+}
+
 .intro_card {
   min-height: 140px;
   margin-top: 40px;
