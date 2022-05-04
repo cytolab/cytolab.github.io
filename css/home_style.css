@@ -147,6 +147,107 @@
   background-color: #e87f38;
 }
 
+/* -- ABOUT -- */
+#about_row {
+  margin-top: 55px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#about {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #004ce5;
+}
+
+#about h2 {
+  margin-bottom: 20px;
+}
+
+#about p {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15%;
+}
+
+#people {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+.person_card {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.person_card img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.person_card .col-md-8 {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #f9f9f9;
+  color: #4c4c4c;
+}
+
+.person_card h4 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #004ce5;
+}
+
+.person_card h5 {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.person_card .col-md-8 p {
+  color: #4c4c4c;
+  line-height: 1.2;
+}
+
+#about_row .col-md-12 {
+  padding-left: 30px;
+}
+
+#past_members {
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px;
+  padding-top: 19px;
+  background-color: #1e1c49;
+}
+
+#past_members a {
+  padding-top: 2px;
+  text-transform: uppercase;
+  color: #f9f9f9;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+
+#past_members a:hover {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#past_members img {
+  margin-top: -6px;
+  height: 25px;
+  padding-left: 10px;
+}
+
 /* -- FUNDING -- */
 #funding {
   margin-top: 65px;
