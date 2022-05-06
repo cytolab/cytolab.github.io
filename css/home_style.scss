@@ -157,10 +157,8 @@ $vibrant_blue: #004ce5;
 	margin-left: auto;
 	margin-top: 15%;
 }
-#people { 
-	padding-top: 40px;
-	margin-bottom: 20px;
-}
+#people { padding-top: 40px; }
+#people .section_title { margin-bottom: 20px; }
 .person_card {
 	margin-left: 30px;
 	margin-bottom: 20px;
@@ -170,12 +168,10 @@ $vibrant_blue: #004ce5;
 	border-top-left-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
-.person_card .col-md-8 {
+.person_card .col-sm-8 {
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
-	padding-top: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 15px;
 	background-color: $cornsilk;
 	color: $text_gray;
 }
@@ -191,11 +187,16 @@ $vibrant_blue: #004ce5;
 	font-size: 18px;
 	letter-spacing: 1px;
 }
-.person_card .col-md-8 p {
+.person_card .col-sm-8 p {
 	color: $text_gray;
 	line-height: 1.2;
 }
-#about_row .col-md-12 { padding-left: 30px; }
+.person_card .email {
+	padding-bottom: 8px;
+	font-weight: 600;
+	font-family: $header_stack;
+}
+#about_row .col-lg-12 { padding-left: 30px; }
 #past_members {
 	text-align: center;
 	border-radius: 5px;
@@ -220,8 +221,6 @@ $vibrant_blue: #004ce5;
 	height: 25px;
 	padding-left: 10px;
 }
-
-
 
 /* -- FUNDING -- */
 #funding {
