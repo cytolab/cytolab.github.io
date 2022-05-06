@@ -11,6 +11,19 @@
 	}
 	#intro_banner p { margin-left: 40px; }
 	#intro_cyto img { width: 80%; }
+	#about p {
+		margin-top: 0px;
+		width: 50%;
+	}
+	.person_card {
+		margin-left: 8.33333%;
+		width: 83.33333%;
+	}
+	#about_row .col-lg-12 { padding-left: 0px; }
+	#past_members {
+		margin-left: 8.33333%;
+		max-width: 83.33333%;
+	}
 }
 
 /* -- TABLET -- */ 
@@ -64,7 +77,52 @@
 	#intro_banner { height: 60vh; }
 	#intro_banner h1 { margin-left: 30px; }
 	#intro_banner p { margin-left: 30px; }
+	#about_row { margin-top: 30px; }
+	#about {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	#about p {
+		width: 100%;
+		padding-right: 35px;
+		padding-left: 35px;
+	}
+	#people { 
+		padding-top: 30px; 
+		margin-left: 0px;
+	}
+	.person_card {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+	}
+	.person_card .col-sm-4 { width: 100%; }
+	.person_card img {
+		border-top-right-radius: 5px;
+		border-bottom-left-radius: 0px;
+	}
+	.person_card .col-sm-8 {
+		border-top-right-radius: 0px;
+		border-bottom-left-radius: 5px;
+	}
+	#past_members {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+	}
 }
+@media screen and (max-width: 445px) {
+	.person_card { width: 100%; }
+	#past_members { 
+		width: 100%; 
+		max-width: 100%;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+}
+
 
 // br to adapt top banner 
 @media screen and (max-width: 405px) {

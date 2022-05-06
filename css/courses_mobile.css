@@ -111,11 +111,14 @@
     padding-left: 0px;
   }
 
+  .course_name {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
   .course_name h2 {
     margin-top: 30px;
     margin-bottom: 15px;
-    margin-right: 30px;
-    margin-left: 30px;
     font-size: 24px;
   }
 

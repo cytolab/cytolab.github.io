@@ -9,6 +9,7 @@ $rust: #ea660c;
 $rust_light: #e87f38;
 $citron: #8ea604;
 $citron_light: #bfce32; 
+$vibrant_blue: #004ce5;
 
 #home_btn {
 	font-weight: 600 !important;
@@ -136,6 +137,89 @@ $citron_light: #bfce32;
 #intro_cyto a:hover {
 	text-decoration: none;
 	background-color: $rust_light;
+}
+
+/* -- ABOUT -- */
+#about_row {
+	margin-top: 55px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+#about {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: $vibrant_blue;
+}
+#about h2 { margin-bottom: 20px; }
+#about p {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15%;
+}
+#people { padding-top: 40px; }
+#people .section_title { margin-bottom: 20px; }
+.person_card {
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.person_card img {
+	width: 100%;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.person_card .col-sm-8 {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 15px;
+	background-color: $cornsilk;
+	color: $text_gray;
+}
+.person_card h4 {
+	margin-bottom: 10px;
+	font-size: 28px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	line-height: 1.2;
+	color: $vibrant_blue;
+}
+.person_card h5 {
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+.person_card .col-sm-8 p {
+	color: $text_gray;
+	line-height: 1.2;
+}
+.person_card .email {
+	padding-bottom: 8px;
+	font-weight: 600;
+	font-family: $header_stack;
+}
+#about_row .col-lg-12 { padding-left: 30px; }
+#past_members {
+	text-align: center;
+	border-radius: 5px;
+	padding: 15px;
+	padding-top: 19px;
+	background-color: $irish_blue_light;
+}
+#past_members a {
+	padding-top: 2px;
+	text-transform: uppercase;
+	color: $cornsilk;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+}
+#past_members a:hover {
+	text-decoration: none;
+	font-weight: 600;
+}
+#past_members img {
+	margin-top: -6px;
+	height: 25px;
+	padding-left: 10px;
 }
 
 /* -- FUNDING -- */
