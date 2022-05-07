@@ -40,6 +40,21 @@ p {
 	color: $cornsilk; 
     color: rgba(255, 255, 255, 0.65);
 }
+.my_btn {
+	display: inline-block;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-radius: 5px;
+	font-family: $header_stack;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+.coming_soon {
+	border: 1px solid rgba(255, 255, 255, 0.65);
+}
 
 /* -- NAVBAR -- */
 #navbar {

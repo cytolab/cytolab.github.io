@@ -10,6 +10,7 @@ $rust_light: #e87f38;
 $citron: #8ea604;
 $citron_light: #bfce32; 
 $vibrant_blue: #004ce5;
+$yellow: #ffde39;
 
 #home_btn {
 	font-weight: 600 !important;
@@ -18,7 +19,7 @@ $vibrant_blue: #004ce5;
 /* -- INTRO BANNER -- */ 
 #intro_banner {
 	height: 75vh;
-	background-image: url("../tSNE_anim_03.gif");
+	background-image: url("../tSNE_anim_05.gif");
 	background-position: right;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -64,15 +65,6 @@ $vibrant_blue: #004ce5;
 	background-color: $cornsilk;
 }
 .thumbnail a {
-	display: inline-block;
-	margin-top: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 40px;
-	padding-left: 40px;
-	border-radius: 5px;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
 	background-color: $citron;
 	color: $cornsilk;
 }
@@ -80,7 +72,7 @@ $vibrant_blue: #004ce5;
 	text-decoration: none;
 	background-color: $citron_light;
 }
-#cassatt { background-color: $text_gray; }
+#cassatt img { background-color: $text_gray; }
 
 /* -- INTRO CYTO -- */
 #intro_cyto {
@@ -122,21 +114,17 @@ $vibrant_blue: #004ce5;
 	color: $text_gray;
 }
 #intro_cyto a {
-	display: inline-block;
-	align-self: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 40px;
-	padding-left: 40px;
-	border-radius: 5px;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
 	background-color: $rust;
 	color: $cornsilk;
 }
 #intro_cyto a:hover {
 	text-decoration: none;
 	background-color: $rust_light;
+}
+#intro_cyto .coming_soon {
+	font-family: $header_stack !important;
+	font-style: normal !important;
+	border-color: $text_gray;
 }
 
 /* -- ABOUT -- */
@@ -156,6 +144,14 @@ $vibrant_blue: #004ce5;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 15%;
+}
+#about a {
+	color: $cornsilk;
+	text-decoration: underline;
+	text-underline-offset: 1px;
+}
+#about a:hover {
+	color: $yellow;
 }
 #people { padding-top: 40px; }
 #people .section_title { margin-bottom: 20px; }
@@ -205,6 +201,7 @@ $vibrant_blue: #004ce5;
 	background-color: $irish_blue_light;
 }
 #past_members a {
+	margin-top: 0px !important;
 	padding-top: 2px;
 	text-transform: uppercase;
 	color: $cornsilk;
