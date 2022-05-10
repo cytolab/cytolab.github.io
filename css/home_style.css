@@ -5,7 +5,7 @@
 /* -- INTRO BANNER -- */
 #intro_banner {
   height: 75vh;
-  background-image: url("../tSNE_anim_03.gif");
+  background-image: url("../tSNE_anim_05.gif");
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
@@ -60,15 +60,6 @@
 }
 
 .thumbnail a {
-  display: inline-block;
-  margin-top: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 40px;
-  padding-left: 40px;
-  border-radius: 5px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
   background-color: #8ea604;
   color: #f9f9f9;
 }
@@ -78,7 +69,7 @@
   background-color: #bfce32;
 }
 
-#cassatt {
+#cassatt img {
   background-color: #4c4c4c;
 }
 
@@ -129,15 +120,6 @@
 }
 
 #intro_cyto a {
-  display: inline-block;
-  align-self: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 40px;
-  padding-left: 40px;
-  border-radius: 5px;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
   background-color: #ea660c;
   color: #f9f9f9;
 }
@@ -145,6 +127,12 @@
 #intro_cyto a:hover {
   text-decoration: none;
   background-color: #e87f38;
+}
+
+#intro_cyto .coming_soon {
+  font-family: Urbanist, Arial, sans-serif !important;
+  font-style: normal !important;
+  border-color: #4c4c4c;
 }
 
 /* -- ABOUT -- */
@@ -169,6 +157,16 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 15%;
+}
+
+#about a {
+  color: #f9f9f9;
+  text-decoration: underline;
+  text-underline-offset: 1px;
+}
+
+#about a:hover {
+  color: #ffde39;
 }
 
 #people {
@@ -236,6 +234,7 @@
 }
 
 #past_members a {
+  margin-top: 0px !important;
   padding-top: 2px;
   text-transform: uppercase;
   color: #f9f9f9;
