@@ -43,6 +43,8 @@
 .course_card h4 {
   padding-top: 5px;
   font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
 }
 
 .course_card h3 {
@@ -50,9 +52,11 @@
 }
 
 .course_card h5 {
+  margin-bottom: 2px;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
 .course_card a {
@@ -200,6 +204,10 @@
 .wkflow a:hover {
   background-color: #bfce32;
   text-decoration: none;
+}
+
+#my_spacer {
+  height: 40px;
 }
 
 /*# sourceMappingURL=courses_style.css.map */

@@ -53,12 +53,16 @@ $magenta_light: #cc5b8a;
 .course_card h4 {
 	padding-top: 5px;
 	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 1.5px;
 }
 .course_card h3 { padding-top: 15px; }
 .course_card h5 {
+	margin-bottom: 2px;
 	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 1.5px;
+	text-transform: uppercase;
 }
 .course_card a {
 	display: inline-block;
@@ -185,3 +189,4 @@ $magenta_light: #cc5b8a;
 	background-color: $citron_light;
 	text-decoration: none;
 }
+#my_spacer { height: 40px; }
