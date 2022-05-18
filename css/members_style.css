@@ -1,0 +1,59 @@
+/* -- TITLE BANNER -- */
+#members_banner h1 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+/* -- PAST MEMBERS --*/
+#past_members {
+  margin-top: 40px;
+}
+
+.person_card {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  color: #4c4c4c;
+  line-height: 1.2;
+}
+
+.person_card img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.person_card .col-sm-9 {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+.person_card h4 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #004ce5;
+}
+
+.person_card h5 {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.person_card li {
+  line-height: 1.5;
+}
+
+/* -- TEMPORARY --*/
+#temporary_spacer {
+  height: 200px;
+}
+
+/*# sourceMappingURL=members_style.css.map */
