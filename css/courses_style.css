@@ -210,4 +210,10 @@
   height: 40px;
 }
 
+.update_marker p {
+  padding-bottom: 30px;
+  text-align: center;
+  text-decoration: italic;
+}
+
 /*# sourceMappingURL=courses_style.css.map */
