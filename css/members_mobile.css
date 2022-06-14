@@ -1,0 +1,47 @@
+/* -- SM LAPTOP -- */
+@media screen and (max-width: 991px) {
+  .col-md-8 {
+    margin-left: 0px;
+    flex-basis: 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .person_card {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+/* -- TABLET -- */
+/* -- PHONES -- */
+@media screen and (max-width: 575px) {
+  .person_card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .person_card img {
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .person_card .col-sm-9 {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+  }
+}
+@media screen and (max-width: 445px) {
+  .person_card {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #temporary_spacer {
+    height: 40px;
+  }
+}
+
+/*# sourceMappingURL=members_mobile.css.map */
