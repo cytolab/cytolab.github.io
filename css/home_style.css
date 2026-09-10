@@ -179,12 +179,11 @@
 }
 
 .person_card img {
-  width: 100%;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
-.person_card .col-sm-8 {
+.person_card .col-sm-9 {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   padding: 15px;
@@ -206,7 +205,7 @@
   letter-spacing: 1px;
 }
 
-.person_card .col-sm-8 p {
+.person_card .col-sm-9 p {
   color: #4c4c4c;
   line-height: 1.2;
 }
